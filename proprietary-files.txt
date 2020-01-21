@@ -35,95 +35,51 @@ vendor/etc/acdbdata/na/Hdmi_cal.acdb
 vendor/etc/acdbdata/na/Headset_cal.acdb
 vendor/etc/acdbdata/na/Speaker_cal.acdb
 
-# Audio - Speaker Protection Firmwares
-vendor/firmware/cs35l41-dsp1-spk-cali.bin
-vendor/firmware/cs35l41-dsp1-spk-cali-na.bin
-vendor/firmware/cs35l41-dsp1-spk-diag.wmfw
-vendor/firmware/cs35l41-dsp1-spk-prot.bin
-vendor/firmware/cs35l41-dsp1-spk-prot-na.bin
-vendor/firmware/cs35l41-dsp1-spk-prot.wmfw
-
 # Display calib
-vendor/etc/qdcm_calib_data_mipi_mot_vid_djn_hd_568.xml|45896bf6b900ebeebdb6db83c7eca2ada7b6bb0b
-vendor/etc/qdcm_calib_data_mipi_mot_vid_djn_hd_569.xml|45896bf6b900ebeebdb6db83c7eca2ada7b6bb0b
-vendor/etc/qdcm_calib_data_mipi_mot_vid_dsbj_hd_570.xml|04b3a7bd36d7d0463b113411f6695ce8e242c61b
+vendor/etc/qdcm_calib_data_mipi_mot_vid_djn_hd_568.xml
+vendor/etc/qdcm_calib_data_mipi_mot_vid_djn_hd_569.xml
+vendor/etc/qdcm_calib_data_mipi_mot_vid_dsbj_hd_570.xml
 
 # Display Panel Firmwares
-vendor/firmware/himax-boe-hx83112a-0a05-208-river.bin
-vendor/firmware/himax-boe-hx83112a-river.csv
-vendor/firmware/himax-tianmah-hx83112a-0500-208-river.bin
-vendor/firmware/himax-tianmah-hx83112a-river.csv
-vendor/firmware/novatek_ts-tianman-NT36672A-181127-0b-river.bin
+vendor/firmware/novatek_ts-djn-NT36525-181116-08-channel.bin
+vendor/firmware/novatek_ts-djn-NT36525B-190103-146-channel.bin
+vendor/firmware/ilitek-dsbj-ILI9881-0B-6C-channel.bin
+# Related?
+vendor/firmware/leia_pfp_470.fw
+vendor/firmware/leia_pm4_470.fw
+vendor/firmware/FT8006U_Pramboot.bin
 
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
-# TODO, find:
-#vendor/etc/init/init.ets.rc
-#vendor/lib64/vendor.egistec.hardware.fingerprint@2.0.so
-#vendor/lib64/libets_fp_et5.so
-#vendor/lib64/libets_teeclient.so
+# maybe?
+vendor/etc/init/init.rsu.rc
+vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
 
 # Vibrator Firmwares
-vendor/firmware/aw869x_haptic.bin
-vendor/firmware/aw869x_rtp_Argo_Navis.bin
-vendor/firmware/aw869x_rtp_Attentive.bin
-vendor/firmware/aw869x_rtp_Awake.bin
-vendor/firmware/aw869x_rtp.bin
-vendor/firmware/aw869x_rtp_Bird_Loop.bin
-vendor/firmware/aw869x_rtp_Brilliant_Times.bin
-vendor/firmware/aw869x_rtp_Chimey_Phone.bin
-vendor/firmware/aw869x_rtp_Complex.bin
-vendor/firmware/aw869x_rtp_Crazy_Dream.bin
-vendor/firmware/aw869x_rtp_Curve_Ball_Blend.bin
-vendor/firmware/aw869x_rtp_Digital_Phone.bin
-vendor/firmware/aw869x_rtp_Electrovision.bin
-vendor/firmware/aw869x_rtp_Ether_Shake.bin
-vendor/firmware/aw869x_rtp_Fateful_Words.bin
-vendor/firmware/aw869x_rtp_Flutey_Phone.bin
-vendor/firmware/aw869x_rtp_Future_Funk.bin
-vendor/firmware/aw869x_rtp_Future_Hi_Tech.bin
-vendor/firmware/aw869x_rtp_Girtab.bin
-vendor/firmware/aw869x_rtp_Hello.bin
-vendor/firmware/aw869x_rtp_Hexagon.bin
-vendor/firmware/aw869x_rtp_Hydra.bin
-vendor/firmware/aw869x_rtp_Insert_Coin.bin
-vendor/firmware/aw869x_rtp_Jumping_Dots.bin
-vendor/firmware/aw869x_rtp_Keys.bin
-vendor/firmware/aw869x_rtp_Loopy.bin
-vendor/firmware/aw869x_rtp_Loopy_Lounge.bin
-vendor/firmware/aw869x_rtp_Modular.bin
-vendor/firmware/aw869x_rtp_Momentum.bin
-vendor/firmware/aw869x_rtp_Morning.bin
-vendor/firmware/aw869x_rtp_Moto.bin
-vendor/firmware/aw869x_rtp_Natural.bin
-vendor/firmware/aw869x_rtp_New_Player.bin
-vendor/firmware/aw869x_rtp_Onward.bin
-vendor/firmware/aw869x_rtp_Organ_Dub.bin
-vendor/firmware/aw869x_rtp_Overclocked.bin
-vendor/firmware/aw869x_rtp_Pegasus.bin
-vendor/firmware/aw869x_rtp_Pyxis.bin
-vendor/firmware/aw869x_rtp_Regrade.bin
-vendor/firmware/aw869x_rtp_Scarabaeus.bin
-vendor/firmware/aw869x_rtp_Sceptrum.bin
-vendor/firmware/aw869x_rtp_Simple.bin
-vendor/firmware/aw869x_rtp_Solarium.bin
-vendor/firmware/aw869x_rtp_Sparse.bin
-vendor/firmware/aw869x_rtp_Terrabytes.bin
+vendor/firmware/aw8624_haptic.bin
+vendor/firmware/aw8624_rtp.bin
+vendor/firmware/aw8624_rtp_lighthouse.bin
+vendor/firmware/aw8624_rtp_silk.bin
 
-# Misc Firmware
-vendor/firmware/crus_sp_rx0.bin
-vendor/firmware/crus_sp_rx1.bin
-vendor/firmware/crus_sp_rx2.bin
-vendor/firmware/crus_sp_rx3.bin
-vendor/firmware/crus_sp_rx4.bin
-vendor/firmware/crus_sp_rx5.bin
-vendor/firmware/crus_sp_rx6.bin
-vendor/firmware/crus_sp_rx7.bin
+# ???
+vendor/firmware/a225_pfp.fw
+vendor/firmware/a225_pm4.fw
+vendor/firmware/a225p5_pm4.fw
+vendor/firmware/a300_pfp.fw
+vendor/firmware/a300_pm4.fw
+vendor/firmware/a330_pfp.fw
+vendor/firmware/a330_pm4.fw
+vendor/firmware/a420_pfp.fw
+vendor/firmware/a420_pm4.fw
+vendor/firmware/a540_gpmu.fw2
 
-# Sound Card - Marley Firmware
-vendor/firmware/marley-dsp1-ultrasound.bin
-vendor/firmware/marley-dsp1-ultrasound.wmfw
-vendor/firmware/marley-dsp2-aov-frontend.wmfw
-vendor/firmware/marley-dsp2-aov-vrgain.bin
-vendor/firmware/marley-dsp3-aov-control.wmfw
+# EMMC Firmware
+vendor/firmware/emmc_ffu_13_S0J9N8.fw
+vendor/firmware/emmc_ffu_15_FE12MB.fw
+vendor/firmware/emmc_ffu_15_QE13MB.fw
+vendor/firmware/emmc_ffu_15_RC14MB.fw
+vendor/firmware/emmc_ffu_15_RC1BMB.fw
+vendor/firmware/emmc_ffu_15_RE1BMB.fw
+vendor/firmware/emmc_ffu_15_RX14MB.fw
+vendor/firmware/emmc_ffu_15_RX1BMB.fw
