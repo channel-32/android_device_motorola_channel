@@ -31,10 +31,9 @@ PRODUCT_MANUFACTURER := motorola
 PRODUCT_NAME := lineage_channel
 PRODUCT_MODEL := moto g(7) play
 
-# TODO
 PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME=channel \
-        PRIVATE_BUILD_DESC="river-user 9 PPOS29.114-134-4 fe214 release-keys"
+        PRIVATE_BUILD_DESC="channel-user 9 PPYS29.105-134-2 3d0d release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := motorola/river/river:9/PPOS29.114-134-4/fe214:user/release-keys
+BUILD_FINGERPRINT := motorola/channel_retail/channel:9/PPYS29.105-134-2/3d0d:user/release-keys
