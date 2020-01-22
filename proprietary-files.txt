@@ -52,9 +52,9 @@ vendor/firmware/FT8006U_Pramboot.bin
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
-# maybe?
 vendor/etc/init/init.rsu.rc
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
+vendor/lib/com.fingerprints.extension@1.0.so
 
 # Vibrator Firmwares
 vendor/firmware/aw8624_haptic.bin
