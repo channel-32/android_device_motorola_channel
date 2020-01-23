@@ -27,5 +27,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.sdk.sensors.gestures=false
 
 # Display
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=420
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    ro.sf.lcd_density=420
